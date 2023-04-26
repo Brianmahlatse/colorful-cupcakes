@@ -1,15 +1,27 @@
+.header{
+
+    margin: 0 auto;
+    font-style: bold ;
+    width:100%;
+    
+}
+h2{
+    display:inline;
+}
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #3a86ff;
+    background-color: navy;
     color: whitesmoke;
 }
 
 .cupcake {
-    display: flex;
+   /* display: flex;*/
+    margin:0 auto;
 }
 
-.flex1 {
-    /* flex : 1 */
+ .flex1 {
+     flex : 1 
+    
 }
 
 .flex2 {
@@ -21,30 +33,42 @@ body {
 }
 
 .img {
+    /*position: absolute;
     align-self: flex-start;
     height: auto; 
     max-width: 100%;
+    max-height: fit-content;
+    margin: 0 auto;*/
+    width: 50;
+    display: block; /* Ensures that the image is a block element */
+    margin: auto; /* Sets the margin to auto on both sides */
+  
+
 }
 
 
 .cupcake_box {
     padding: 1em;
-    margin: 1em;
+    margin:  1em;
     border-radius: 0.5em;
+    
 }
 
 .cupcake1 {
-    background-color: #ff006e;
+    background-color: #4c00ff;
 }
 
 .cupcake2 {
-    background-color: #fb5607;
+    background-color: #07e3fb6b;
 }
 
 .cupcake3 {
-    background-color: #8338ec;
+    background-color: #38ec56;
 }
 
 .blue {
     background-color: #3a86ff;
+}
+.container{
+    margin: 0 20%;
 }
